@@ -9,8 +9,7 @@ dt2=[]
 for i in range(20):
     l.append(Circle(Point(150+i*20,250),10).draw(win))
     dt2.append(Text(Point(150+i*20,250),data[i]).draw(win))
-
-# print(l)
+print(l)
 def cha(x,y,i):
     # dt2[i].undraw()
     a=x.getCenter()
